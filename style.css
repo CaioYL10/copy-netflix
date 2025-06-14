@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPk45qp4iVX2ltVpIIYL7DKD9lZTRWpDVQhMGnm7rk66DcSLR_m0NgI6ScrlgKigcCUwv1FtGDUAucTHtYJ2Bgbhxw-xnbuIx-0kEIkQQqIsw29qZz-U9DiV6g9tQ4KW9p8z51nGo8gRw/s1170/netflix-servico-distribuicao-jogos-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.estilo-nav {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.alinhamento-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo-netflix {
+    color: red;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.alinhamento {
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-block-end: 20px;
+}
+
+.alinhamento2 {
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+#estilo-button-entrar {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.alinhamento-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#estilo-div-form {
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    color: red;
+    border-radius: 30px;
+    border: 2px white solid;
+}
+
+.section-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+#senha {
+    margin-top: 80px;
+}
+
+.alinhamento-cas {
+    margin-left: 85px;
+    margin-top: 90px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: red 2px solid;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#estilo-cas {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#estilo-cas:hover {
+    background-color: rgba(255, 0, 0, 0.63);
+    transition: all 1s;
+    cursor: pointer;
+}
